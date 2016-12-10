@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		3F31CB261DD2E19000EBB240 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F31CB251DD2E19000EBB240 /* main.m */; };
 		3F31CB291DD2E19000EBB240 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F31CB281DD2E19000EBB240 /* AppDelegate.m */; };
-		3F31CB2C1DD2E19000EBB240 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F31CB2B1DD2E19000EBB240 /* ViewController.m */; };
 		3F31CB2F1DD2E19000EBB240 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F31CB2D1DD2E19000EBB240 /* Main.storyboard */; };
 		3F31CB311DD2E19000EBB240 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F31CB301DD2E19000EBB240 /* Images.xcassets */; };
 		3F31CB341DD2E19000EBB240 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F31CB321DD2E19000EBB240 /* LaunchScreen.xib */; };
 		3F31CB401DD2E19000EBB240 /* NSURLSessionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F31CB3F1DD2E19000EBB240 /* NSURLSessionTests.m */; };
+		3F31CB4B1DD2E1C700EBB240 /* GitTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F31CB4A1DD2E1C700EBB240 /* GitTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +32,14 @@
 		3F31CB251DD2E19000EBB240 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3F31CB271DD2E19000EBB240 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3F31CB281DD2E19000EBB240 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3F31CB2A1DD2E19000EBB240 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3F31CB2B1DD2E19000EBB240 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3F31CB2E1DD2E19000EBB240 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F31CB301DD2E19000EBB240 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3F31CB331DD2E19000EBB240 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3F31CB391DD2E19000EBB240 /* NSURLSessionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSURLSessionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F31CB3E1DD2E19000EBB240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F31CB3F1DD2E19000EBB240 /* NSURLSessionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSURLSessionTests.m; sourceTree = "<group>"; };
+		3F31CB491DD2E1C700EBB240 /* GitTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitTableViewController.h; sourceTree = "<group>"; };
+		3F31CB4A1DD2E1C700EBB240 /* GitTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GitTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +83,8 @@
 			children = (
 				3F31CB271DD2E19000EBB240 /* AppDelegate.h */,
 				3F31CB281DD2E19000EBB240 /* AppDelegate.m */,
-				3F31CB2A1DD2E19000EBB240 /* ViewController.h */,
-				3F31CB2B1DD2E19000EBB240 /* ViewController.m */,
+				3F31CB491DD2E1C700EBB240 /* GitTableViewController.h */,
+				3F31CB4A1DD2E1C700EBB240 /* GitTableViewController.m */,
 				3F31CB2D1DD2E19000EBB240 /* Main.storyboard */,
 				3F31CB301DD2E19000EBB240 /* Images.xcassets */,
 				3F31CB321DD2E19000EBB240 /* LaunchScreen.xib */,
@@ -219,9 +219,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F31CB2C1DD2E19000EBB240 /* ViewController.m in Sources */,
 				3F31CB291DD2E19000EBB240 /* AppDelegate.m in Sources */,
 				3F31CB261DD2E19000EBB240 /* main.m in Sources */,
+				3F31CB4B1DD2E1C700EBB240 /* GitTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
